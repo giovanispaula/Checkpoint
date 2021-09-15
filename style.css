@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: linear-gradient(180deg, #343434, #b04000, #b0a400);
+  background-size: 600% 600%;
+  -webkit-animation: AnimationName 0s ease infinite;
+  -moz-animation: AnimationName 0s ease infinite;
+  animation: AnimationName 0s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 32% 0%
+  }
+  50% {
+    background-position: 69% 100%
+  }
+  100% {
+    background-position: 32% 0%
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 32% 0%
+  }
+  50% {
+    background-position: 69% 100%
+  }
+  100% {
+    background-position: 32% 0%
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 32% 0%
+  }
+  50% {
+    background-position: 69% 100%
+  }
+  100% {
+    background-position: 32% 0%
+  }
+}
+
+h1 {
+  color: rgb(231, 0, 0);
+}
+
+.grid-container {
+  align-items: : center;
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#addCardContainer {
+  width: 200px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all .25s ease-in-out;
+}
+
+.addCards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
